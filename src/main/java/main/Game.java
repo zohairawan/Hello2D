@@ -1,4 +1,7 @@
 package main;
+/**
+ * Purpose: Most important class. This is where everything will start and take form
+ */
 
 public class Game {
 

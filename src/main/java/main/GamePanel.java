@@ -1,4 +1,7 @@
 package main;
+/**
+ * Purpose: Store our JPanel, where we will do our drawing
+ */
 
 import javax.swing.*;
 import java.awt.*;

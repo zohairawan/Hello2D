@@ -1,4 +1,7 @@
 package main;
+/**
+ * Purpose: Store our JFrame
+ */
 
 import javax.swing.*;
 
