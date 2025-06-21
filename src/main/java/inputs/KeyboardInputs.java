@@ -1,4 +1,7 @@
 package inputs;
+/**
+ * Purpose: Responsible for implementing and handling keyboard inputs
+ */
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
