@@ -4,13 +4,22 @@ package main;
  */
 
 import inputs.KeyboardInputs;
+import inputs.MouseInputs;
 import javax.swing.*;
 import java.awt.*;
 
 public class GamePanel extends JPanel{
 
+    private MouseInputs mouseInputs;
+    private KeyboardInputs keyboardInputs;
+
     public GamePanel() {
-        addKeyListener(new KeyboardInputs());
+        mouseInputs = new MouseInputs();
+        keyboardInputs = new KeyboardInputs();
+
+        addKeyListener(keyboardInputs);
+        addMouseListener(mouseInputs);
+        addMouseMotionListener(mouseInputs);
     }
 
     public void paintComponent(Graphics graphics) {
