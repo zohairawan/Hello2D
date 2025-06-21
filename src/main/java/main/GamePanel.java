@@ -3,13 +3,14 @@ package main;
  * Purpose: Store our JPanel, where we will do our drawing
  */
 
+import inputs.KeyboardInputs;
 import javax.swing.*;
 import java.awt.*;
 
 public class GamePanel extends JPanel{
 
     public GamePanel() {
-
+        addKeyListener(new KeyboardInputs());
     }
 
     public void paintComponent(Graphics graphics) {
